@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.obsidianclient.forgedummy",
+    "module": "ForgeDummy",
+    "version": "11.15.1.2318-1.8.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ForgeDummy-11.15.1.2318-1.8.9.jar",
+          "url": "ForgeDummy-11.15.1.2318-1.8.9.jar",
+          "size": 18387,
+          "sha512": "e32e8b6ccf0320f839c99c351ada8986630db2cf5bfbda621993bd58481353a2155c23b608cfcc609152c140ce7be9f0d4151473728b0bde2661346e6bf77f7c",
+          "sha256": "af6a8fe400048a31bcb17dde105c9a2e01d0ea4cf0172abd9a97edb553e8bf2e",
+          "sha1": "861850910c8afb4470a200fea584639d899b9746",
+          "md5": "2b8f9ed5e6f3b959663f9e64f331ac21"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ForgeDummy-11.15.1.2318-1.8.9.jar",
+          "url": "ForgeDummy-11.15.1.2318-1.8.9.jar",
+          "size": 18387,
+          "sha512": "e32e8b6ccf0320f839c99c351ada8986630db2cf5bfbda621993bd58481353a2155c23b608cfcc609152c140ce7be9f0d4151473728b0bde2661346e6bf77f7c",
+          "sha256": "af6a8fe400048a31bcb17dde105c9a2e01d0ea4cf0172abd9a97edb553e8bf2e",
+          "sha1": "861850910c8afb4470a200fea584639d899b9746",
+          "md5": "2b8f9ed5e6f3b959663f9e64f331ac21"
+        }
+      ]
+    }
+  ]
+}
