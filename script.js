@@ -41,6 +41,7 @@ async function fillFileView(user, repo, path) {
         "res",
         "_config.yml",
         "CNAME",
+        "LICENSE",
         "README.md",
         "index.html",
         "style.css",
