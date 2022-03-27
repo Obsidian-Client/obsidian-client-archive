@@ -1,0 +1,24 @@
+{
+	"id": "ObsidianClient-1.8.9-1.0.0",
+	"time": "",
+	"releaseTime": "",
+	"type": "release",
+	"mainClass": "net.minecraft.launchwrapper.Launch",
+	"minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass com.obsidianclient.launch.VanillaLoader",
+	"inheritsFrom": "1.8.9",
+	"jar": "1.8.9",
+	"libraries": [
+		{
+			"name": "com.obsidianclient:ObsidianClient:1.8.9-1.0.0",
+			"url": "https://archive.obsidian-client.com/"
+		},
+		{
+			"name": "net.minecraft:launchwrapper:1.12",
+			"url": "https://libraries.minecraft.net/"
+		},
+		{
+			"name": "org.ow2.asm:asm-all:5.0.3",
+			"url": "https://repo1.maven.org/maven2/"
+		}
+	]
+}
