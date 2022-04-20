@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.obsidianclient.installer",
+    "module": "ObsidianClientInstaller",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ObsidianClientInstaller-1.0.0.jar",
+          "url": "ObsidianClientInstaller-1.0.0.jar",
+          "size": 59496,
+          "sha512": "228383b89603bceffcf75bce17a8fc9b82915486270323f858baca9265fe37b6c078accb8420dfe6a4ac205e515c7b5bb2df64514fb961dc50069df599be29ea",
+          "sha256": "3c2e3b34658f5bc4ab1a93569b08c3868116813e409f48a87c1ce668b58a74e3",
+          "sha1": "d09494a33eb7ee2ceb15bbb6092e1d921cfdc0e6",
+          "md5": "62e136bd165919af1c0f329a1fcc5219"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.woodstox",
+          "module": "woodstox-core",
+          "version": {
+            "requires": "6.2.8"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.2.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ObsidianClientInstaller-1.0.0.jar",
+          "url": "ObsidianClientInstaller-1.0.0.jar",
+          "size": 59496,
+          "sha512": "228383b89603bceffcf75bce17a8fc9b82915486270323f858baca9265fe37b6c078accb8420dfe6a4ac205e515c7b5bb2df64514fb961dc50069df599be29ea",
+          "sha256": "3c2e3b34658f5bc4ab1a93569b08c3868116813e409f48a87c1ce668b58a74e3",
+          "sha1": "d09494a33eb7ee2ceb15bbb6092e1d921cfdc0e6",
+          "md5": "62e136bd165919af1c0f329a1fcc5219"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ObsidianClientInstaller-1.0.0-all.jar",
+          "url": "ObsidianClientInstaller-1.0.0-all.jar",
+          "size": 4188726,
+          "sha512": "b9f953723b6022bb8762245c448d7e46b0af30b1c039fb6252e53c1d4d610a2a80d471af0390bde89a7026cf12911f628a074aa4eb1f980fffd0fba3bda21b03",
+          "sha256": "ee0560568438cca3539bd265894a3cd13a9509c8272f08f18b9fde71766e26cb",
+          "sha1": "dd06826b226331bf1827dc64d756b1d85e0968fa",
+          "md5": "56b3a32a94f11d1723242838d63586e2"
+        }
+      ]
+    }
+  ]
+}
